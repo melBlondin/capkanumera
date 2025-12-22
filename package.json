@@ -24,6 +24,7 @@
   "private": true,
   "packageManager": "npm@10.9.3",
   "dependencies": {
+    "@amcharts/amcharts5": "^5.14.4",
     "@angular/common": "^21.0.0",
     "@angular/compiler": "^21.0.0",
     "@angular/core": "^21.0.0",
