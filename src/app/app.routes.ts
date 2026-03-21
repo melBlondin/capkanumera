@@ -7,8 +7,26 @@ import { Layout } from './layout/layout';
 import { featuresRoutes } from './features/features.routes';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: Home },
-  { path: 'message', component: MessagesPage },
-  { path: '**', component: NotFound },
+  {
+    path: '',
+    component: Layout,
+    children: featuresRoutes,
+  },
+  /*{
+    path: 'home',
+    loadComponent: () => import('./features/home/home').then((m) => m.Home),
+  },*/
+  /*{
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full',
+  },
+  {
+    path: 'home',
+    component: Home,
+  },*/
+  {
+    path: '**',
+    component: NotFound,
+  },
 ];

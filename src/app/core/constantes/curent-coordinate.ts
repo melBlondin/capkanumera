@@ -1,7 +1,7 @@
 export const CURRENTCOORDINATES = [
   {
-    long: -5.8033522,
-    lat: 35.7696302,
-    name: 'Tanger',
+    long: -16.758,
+    lat: 28.234,
+    name: 'Lanzarote',
   },
 ];

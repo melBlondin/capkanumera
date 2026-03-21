@@ -8,6 +8,7 @@ export const MAINCITIES = [
     },
     comment: 'trop bien!',
     title: 'Stop à Tarragona!',
+    requestStatus: false,
   },
 
   {
@@ -18,6 +19,7 @@ export const MAINCITIES = [
       src: 'BARCELONA.jpg',
     },
     comment: 'bof bof!',
+    requestStatus: false,
   },
   {
     long: 1.2445,
@@ -27,6 +29,7 @@ export const MAINCITIES = [
       src: 'TARRAGONA.jpg',
     },
     comment: 'bof bof!',
+    requestStatus: false,
   },
   {
     long: -0.3756,
@@ -36,5 +39,50 @@ export const MAINCITIES = [
       src: 'VALENCIA.jpg',
     },
     comment: 'bof bof!',
+    requestStatus: false,
+  },
+  {
+    long: -5.353384,
+    lat: 36.168833,
+    name: 'Gibraltar',
+    pictureSettings: {
+      src: 'GIBRALTAR.jpg',
+    },
+    comment: 'bof bof!',
+    requestStatus: false,
+  },
+  {
+    long: -5.803352,
+    lat: 35.76963,
+    name: 'Tanger',
+    comment: 'lol',
+    title: 'Tanger',
+    pictureSettings: {
+      src: 'TANGER.jpeg',
+    },
+    requestStatus: false,
+  },
+  {
+    long: -6.8408929,
+    lat: 34.0218454,
+    name: 'Rabat',
+    comment: 'lol',
+    title: 'Rabat',
+    pictureSettings: {
+      src: 'CALP.jpeg',
+    },
+    requestStatus: false,
+  },
+
+  {
+    long: -16.758,
+    lat: 28.234,
+    name: 'Lanzarote',
+    comment: 'lol',
+    title: 'Lanzarote',
+    pictureSettings: {
+      src: 'LANZ.jpeg',
+    },
+    requestStatus: false,
   },
 ];

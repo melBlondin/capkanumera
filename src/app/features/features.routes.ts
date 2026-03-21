@@ -4,8 +4,17 @@ import { MessagesPage } from './messages-page/messages-page';
 import { NotFound } from './not-found/not-found';
 
 export const featuresRoutes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: Home },
-  { path: 'message', component: MessagesPage },
-  { path: '**', component: NotFound },
+  {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full',
+  },
+  {
+    path: 'home',
+    component: Home,
+  },
+  /*{
+    path: 'home',
+    loadComponent: () => import('./home/home').then((m) => m.Home),
+  },*/
 ];

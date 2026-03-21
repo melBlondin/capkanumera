@@ -100,4 +100,14 @@ export const CITIES = [
       src: 'STAPOLA.jpeg',
     },
   },
+  {
+    long: -4.067894,
+    lat: 36.749065,
+    name: 'Caleta de Velez',
+    comment: 'lol',
+    title: 'Caleta de Velew',
+    pictureSettings: {
+      src: 'CALDEVELEZ.jpeg',
+    },
+  },
 ];

@@ -1,1 +1,29 @@
+#chartdiv {
+  width: 100%;
+}
 
+@media screen and (max-width: 450px) {
+  #chartdiv {
+    height: 20vh;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  #chartdiv {
+    height: 30vh;
+  }
+}
+
+@media screen and (min-width: 651px) {
+  #chartdiv {
+    height: 50vh;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  #chartdiv {
+    height: 70vh;
+    width: 100%;
+  }
+}

@@ -1,1 +1,46 @@
+.flex-chart {
+  display: flex;
+  flex-direction: column;
+}
 
+.flex-blog {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.chart {
+  width: 100%;
+}
+
+.content-blog {
+  width: 100%;
+  padding: 1em;
+}
+
+.title-blog {
+  width: 100%;
+  padding: 1em;
+  padding-top: 2em;
+
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (min-width: 650px) {
+  .flex-chart {
+    flex-direction: row;
+  }
+
+  .chart {
+    width: 60%;
+  }
+
+  .title-blog {
+    padding: 1em;
+  }
+  .content-blog {
+    padding: 1em;
+  }
+}
