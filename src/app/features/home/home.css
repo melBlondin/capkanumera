@@ -3,44 +3,47 @@
   flex-direction: column;
 }
 
-.flex-blog {
+/* .flex-blog {
   display: flex;
   flex-direction: column;
   width: 40%;
-}
+} */
 
 .chart {
   width: 100%;
 }
-
+/* 
 .content-blog {
   width: 100%;
   padding: 1em;
+  box-sizing: border-box;
+} */
+.flex-title {
+  display: flex;
 }
-
-.title-blog {
+/* .title-blog {
   width: 100%;
   padding: 1em;
   padding-top: 2em;
-
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   box-sizing: border-box;
   width: 100%;
-}
+} */
 
 @media screen and (min-width: 650px) {
   .flex-chart {
     flex-direction: row;
   }
 
-  .chart {
+  /* .chart {
     width: 60%;
-  }
+  } 
 
-  .title-blog {
+   .title-blog {
     padding: 1em;
   }
   .content-blog {
     padding: 1em;
-  }
+  } */
 }

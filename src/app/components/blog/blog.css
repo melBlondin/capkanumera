@@ -1,7 +1,5 @@
-.blog {
-  width: 100%;
-  padding: 2em;
-  font-family: 'Roboto', sans-serif;
+.myTable {
+  width: 100px;
 }
 
 @media screen and (min-width: 651px) {

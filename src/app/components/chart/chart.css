@@ -1,16 +1,36 @@
-#chartdiv {
+/* #chartdiv {
   width: 100%;
+} */
+#chartdiv {
+  overflow: auto;
+}
+
+#blogdiv {
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+
+#mapdiv {
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+
+.chart-flex {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 450px) {
   #chartdiv {
-    height: 20vh;
+    height: 50vh;
   }
 }
 
 @media screen and (min-width: 451px) {
   #chartdiv {
-    height: 30vh;
+    height: 90vh;
   }
 }
 
@@ -18,6 +38,19 @@
   #chartdiv {
     height: 50vh;
     width: 100%;
+  }
+  .chart-flex {
+    flex-direction: row;
+  }
+
+  #blogdiv {
+    width: 50%;
+    height: 100%;
+  }
+
+  #mapdiv {
+    width: 50%;
+    height: 100%;
   }
 }
 
